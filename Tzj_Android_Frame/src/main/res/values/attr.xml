@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 圆形ImageView属性 -->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <!--图片居中的RadioButton 是否允许取消自身选择状态-->
+    <declare-styleable name="DrawableCenterRadioButton">
+        <attr name="no_check" format="boolean" />
+    </declare-styleable>
+
+    <!--自定义标题栏-->
+    <declare-styleable name="TopBar">
+        <attr name="left_iv_drawable" format="reference" />
+        <attr name="right_iv_drawable" format="reference" />
+        <attr name="right_tv_string" format="string" />
+        <attr name="left_tv_string" format="string" />
+        <attr name="title_string" format="string" />
+        <attr name="bg_color" format="color" />
+    </declare-styleable>
+
+    <!--圆角矩形-->
+    <declare-styleable name="RoundAngleImageView">
+        <attr name="corner_radius" format="dimension" />
+    </declare-styleable>
+
+</resources>

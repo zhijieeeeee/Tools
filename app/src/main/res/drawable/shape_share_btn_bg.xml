@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--登录注册输入框的背景-->
+    <corners android:radius="80dp" />
+    <solid android:color="@android:color/transparent" />
+    <stroke
+        android:width="0.5dip"
+        android:color="@color/colorPrimary" />
+</shape>

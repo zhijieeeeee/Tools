@@ -1,0 +1,23 @@
+<resources>
+
+    <!--上移下移动画-->
+    <style name="style_dialog_anim">
+        <item name="android:windowEnterAnimation">@anim/in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/out_to_bottom</item>
+    </style>
+
+    <!--带动画的对话框style-->
+    <style name="style_dialog_with_anim" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/style_dialog_anim</item>
+    </style>
+
+    <!--不带动画的对话框style-->
+    <style name="style_dialog_without_anim" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>

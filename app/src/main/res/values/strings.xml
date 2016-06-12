@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">开心笑笑</string>
+    <string name="about">关于</string>
+    <string name="joke">笑话大全</string>
+    <string name="gif">趣图大全</string>
+    <string name="post">邮编查询</string>
+    <string name="history">历史上的今天</string>
+    <string name="robot">机器人问答</string>
+
+    <string name="share_txt">【开心笑笑】让你捧腹大笑的笑话的趣图都在这里哟!</string>
+    <!--<string name="share_url">http://www.ysapp.cn/hmm/Uploads/apk/tapk/happy.apk</string>-->
+    <string name="share_url">http://fir.im/happySmile</string>
+    <string name="share_icon">http://7xigmv.com1.z0.glb.clouddn.com/logo.png</string>
+</resources>

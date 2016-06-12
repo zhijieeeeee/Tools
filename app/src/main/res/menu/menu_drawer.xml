@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--抽屉的菜单项-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_joke"
+            android:checked="true"
+            android:icon="@mipmap/ic_very_satisfied_white"
+            android:title="@string/joke" />
+
+        <item
+            android:id="@+id/nav_gif"
+            android:icon="@mipmap/ic_gif_white"
+            android:title="@string/gif" />
+        <item
+            android:id="@+id/nav_robot"
+            android:icon="@mipmap/ic_robot_white"
+            android:title="@string/robot" />
+
+        <!--<item
+            android:id="@+id/nav_history"
+            android:icon="@mipmap/ic_history_white"
+            android:title="@string/history" />--><!--<item
+            android:id="@+id/nav_history"
+            android:icon="@mipmap/ic_history_white"
+            android:title="@string/history" />-->
+
+    </group>
+    <item android:title="Version 3.0">
+        <menu>
+            <item
+                android:checkable="false"
+                android:enabled="false"
+                android:title="" />
+        </menu>
+    </item>
+</menu>

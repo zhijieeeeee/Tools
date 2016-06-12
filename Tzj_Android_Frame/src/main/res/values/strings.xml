@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tzj_Android_Frame</string>
+    <string name="http_request_time_out">链接超时</string>
+    <string name="net_disable">请检查网络连接</string>
+</resources>
