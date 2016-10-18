@@ -7,9 +7,13 @@ android {
     defaultConfig {
         applicationId "com.tt.tools"
         minSdkVersion 11
-        targetSdkVersion 23
+        targetSdkVersion 22
         versionCode 7
         versionName "3.0"
+
+        ndk {
+            abiFilters "armeabi","arm64-v7a","mips","x86"
+        }
     }
 
     //签名配置
